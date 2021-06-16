@@ -45,7 +45,9 @@
 			<span></span>
 		</div>
 	</div>
+	<!-- / Preloader -->
 	
+	<!-- top -->
 	<div class="top">
 		<div class="container-fluid">
 			<div class="row">
@@ -69,22 +71,27 @@
 		</div>
 	</div><!-- /.top -->
 
+	<!-- header -->
 	<header id="header" class="header bg-color">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="header-wrap">
 					<div class="col-md-3">
-						<div id="logo" class="logo">
+						<div class="inner-header">
+							<div class="logo-header">
 							<a href="#" title="">
 								<img src="images/blog/Logo Dark.png" alt="image" />
 							</a>
 						</div><!-- /#logo -->
-					</div><!-- /.col-md-3 -->
-					<div class="col-md-6">						
-						<div class="nav-wrap">
 							<div class="btn-menu">
 								<span></span>
 							</div><!-- //mobile menu button -->
+						</div>
+						
+					</div><!-- /.col-md-3 -->
+					<div class="col-md-6">						
+						<div class="nav-wrap">
+
 							<nav id="mainnav" class="mainnav">
 								<ul class="menu">
 									<li>
@@ -136,6 +143,7 @@
 		</div><!-- /.container -->
 	</header><!-- /header -->
 	
+	<!-- page title -->
 	<div class="page-title">
 		<div class="container-fluid">
 			<div class="row">
@@ -143,10 +151,10 @@
 				<div class="overlay-image"></div>
 				<div class="banner-title">
 					<div class="blog-title">
-						<a href="#">Blog Details</a>
+						Blog Details</a>
 					  </div>
 					  <div class="blog-link">
-						<span><a href="">Home </a>| Blog Details</span>
+						<span><a class="home" href="#">Home </a><a href="#">Blog Details</a></span>
 					  </div>
 				</div>
 				</div>
@@ -156,6 +164,7 @@
 		</div>
 	</div><!-- /.page-title -->
 
+	<!-- main content -->
 	<section class="main-content">
 		<div class="container">
 			<div class="row">
@@ -440,7 +449,8 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 			<div class="list-footer">
 				<div class="container">
 					<div class="row">
-							<div class="widgets-about">
+						<div class="col-md-3">
+							<div class="widgets-about padding-top-listfooter">
 								<p class="heading-jost-20px">
 									About Us
 								</p>
@@ -449,37 +459,43 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 								</p>
 								<ul class="widgets-nav-social">
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
 							</ul>
 							</div>
-							<div class="widgets-menu-1">
-								<p class="heading-jost-20px">
-									Explore
-								</p>
-								<ul class="list-menu-1 text-decs">
-									<li><a href="#">Brangding Design</a> </li>
-									<li><a href="#">Ui/ux Designing</a>  </li>
-									<li><a href="#">Maek Elements</a>  </li>
-									<li><a href="#">Graphics Design</a> </li>
-								</ul>
+						</div>
+							<div class="col-md-3">
+								<div class="widgets-menu-1 padding-top-listfooter">
+									<p class="heading-jost-20px">
+										Explore
+									</p>
+									<ul class="list-menu-1 text-decs">
+										<li><a href="#">Brangding Design</a> </li>
+										<li><a href="#">Ui/ux Designing</a>  </li>
+										<li><a href="#">Maek Elements</a>  </li>
+										<li><a href="#">Graphics Design</a> </li>
+									</ul>
+								</div>
 							</div>
-							<div class="widgets-menu-2">
+							<div class="col-md-3 padding-top-listfooter">
+								<div class="widgets-menu-2">
 								<p class="heading-jost-20px">
 									Recent Post
 								</p>
 								<ul class="list-menu-2 text-decs">
 									<li><div class="list-wrap">
-										<h3><a href="#">Bigg Ideas Of Business branding Info.</a></h3>
-										<span class="post-date"><a href="#"></i><span class="entry-date">December 7, 2021</span></a></span>
+										<h3><a href="#">Bigg Ideas Of Business branding Info.</h3></a>
+											<span class="post-date"><span class="entry-date">December 7, 2021</span></span>
 									</div></li>
 									<li><div class="list-wrap">
-										<h3><a href="#">Bigg Ideas Of Business branding Info.</a></h3>
-										<span class="post-date"><a href="#"></i><span class="entry-date">December 7, 2021</span></a></span>
+										<h3><a href="#">Bigg Ideas Of Business branding Info.</h3></a>
+										<span class="post-date"><span class="entry-date">December 7, 2021</span></span>
 									</div></li>
 								</ul>
 							</div>
+							</div>
+							<div class="col-md-3 padding-top-listfooter">
 							<div class="widgets-subcribes">
 								<p class="heading-jost-20px">
 									Newslatter
@@ -491,6 +507,10 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 									<input class="widgets-text-input" placeholder="Email Address" type="text"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 								</div>
 							</div>
+							</div>
+							
+							
+							
 					</div>
 				</div>
 			</div>
@@ -509,15 +529,16 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 				</div>
 			</div>
 		</div>
-</footer>
+	</footer>
+	<!-- / footer -->
 	
-<!-- end footer -->
-	
+	<!-- btn go top -->
 	<div class="button-go-top">
 		<a href="#" title="" class="go-top">
 			<i class="fa fa-chevron-up"></i>
 		</a>
 	</div>
+	<!-- / btn go top -->
 
 </div> <!-- /.boxed -->
 
@@ -527,7 +548,6 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 <script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
 <script type="text/javascript" src="javascript/owl.carousel.js"></script>
 <script type="text/javascript" src="javascript/jquery.easing.js"></script>
-
 <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
 <script type="text/javascript" src="javascript/waypoints.min.js"></script>
 <script type="text/javascript" src="javascript/main.js"></script>
